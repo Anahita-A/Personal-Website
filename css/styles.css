@@ -16,6 +16,7 @@ h2 {
   font-size: 1.5rem;
   color: #654062;
   padding-bottom: 10px;
+  text-align: center;
 }
 
 h3 {
@@ -76,9 +77,29 @@ hr {
   margin: 15px;
   font-size: 0.7rem;
 }
+.hobby2 {
+  float: right;
+  margin-right: 30px;
+}
+.Hobbies {
+  width : 55%;
+  margin : auto;
+  text-align: justify;
+  line-height: 2;
+}
 .intro {
-  width: 40%;
+  width: 60%;
   margin: auto;
+  text-align: justify;
+}
+.topnav{
+  position : absolute;
+  top:2px;
+}
+.topnav a {
+  float : left;
+  text-align : center;
+  padding: 14px 16px;
 }
 .profile-pic {
   border: #654062;
@@ -115,9 +136,17 @@ hr {
   width : 25%;
   float:right;
   margin-left: 30px;
+
 }
 
 .sign {
   font-size: 0.5rem;
   padding : 20px 0;
+}
+#uni {
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+}
+#uni:hover{
+  color : #654062;
 }
