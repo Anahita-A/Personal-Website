@@ -1,66 +1,85 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Anahita</title>
-    <link rel="stylesheet" type = "text/css" href="css/styles.css">
-    <link rel="icon" href="favicon.ico">
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&family=Montserrat:wght@300&family=Sacramento&display=swap" rel="stylesheet">
-  </head>
-  <body>
-    <div class="top">
-      <img class = "top-cloud" src="images/cloud.png" alt="cloud_image">
-      <h1>I'm Anahita</h1>
-      <img class = "profile-pic" src="images/circle-cropped.png" alt="Personal_image" height="120">
-      <img class = "bottom-cloud" src="images/cloud.png" alt="cloud_image">
 
-    </div>
-    <div class="middle-container">
-      <div class="profile">
+<head>
+  <meta charset="utf-8">
+  <title>Anahita</title>
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link rel="icon" href="favicon.ico">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&family=Montserrat:wght@300&family=Sacramento&display=swap" rel="stylesheet">
+</head>
 
-        <h2>Hello.</h2>
-        <p class="intro">My name is Anahita, and I'm a Master of Computer Science student at
-          University of California, Irvine. I'm interested in Technology, Product management and design.
-          Indeed, I taught myself how to code because I wanted to build products that help people in their workspace.
-          While working as a project coordinator in the Telecom industry I realized there are lots of features that
-          can be improved in the products used for project management. 
-        Although I am still in the beginning of my Tech journey, I like to inspire and help the underrepresented groups in tech. 
-          Let's break the stereotypes together! </p>
-      </div>
-      <hr>
-      <div class="skills">
-        <h2>My Skills.</h2>
-        <div class="skill-row">
-          <img class="skill-1" src="images/60.jpg" alt="" height = "120" width = "120">
-          <h3>Languages/Frameworks</h3>
-          <p>Java, Python, HTML/CSS, JavaScript, SQL</p>
-        </div>
-        <div class="skill-row">
-          <img class="skill-2" src="" alt="place-holder">
-          <h3>Tools</h3>
-          <p> git, Microsoft Office(word, excel, and powerpoint), Adobe Photoshop and canva</p>
-        </div>
-      </div>
-      <hr>
-      <div class="Hobbies">
-       <h2>My Hobbies.</h2>
-      </div>
-      <hr>
-
-      <div class="contact-me">
-        <h2>Get In Touch</h2>
-        <h3>Placeholder</h3>
-        <p>Placeholder</p>
-        <a class="btn" href="mailto:a.abadian22@gmail.com">CONTACT ME</a>
-      </div>
+<body>
+  <div class="top">
+    <div class="topnav">
+      <a class="active" href="#about">About me</a>
+      <a href="#skill">Skills</a>
+      <a href="#hobby">Hobbies</a>
+      <a href="#contact">Contact me</a>
     </div>
 
+    <img class="top-cloud" src="images/cloud.png" alt="cloud_image">
+    <h1>I'm Anahita</h1>
+    <img class="profile-pic" src="images/circle-cropped.png" alt="Personal_image" height="120">
+    <img class="bottom-cloud" src="images/cloud.png" alt="cloud_image">
 
-    <div class="bottom-container">
-      <a class="footer-link" href="https://www.linkedin.com/in/anahita-abadian">LinkedIn</a>
-      <a class="footer-link" href="https://twitter.com/">Twitter</a>
-      <a class="footer-link" href="https://anaba-max.github.io/Personal-Website/">Website</a>
-      <p class = "sign">© copyright 2020 Anahita Abadian.</p>
+  </div>
+
+  <div class="middle-container">
+    <div class="profile">
+
+      <h2 id="about">Hello.</h2>
+      <p class="intro">My name is Anahita, and I'm a Master of Computer Science student at
+        <a id="uni" href="https://uci.edu/"><u>University of California, Irvine.</u></a> I'm interested in Technology, Product management and design.
+        Indeed, I taught myself how to code because I wanted to build products that help people in their workspace.
+        My Undergraduate degree was in Architecture, and while working as a project coordinator in the Telecom industry I realized there are lots of features that
+        can be improved in the products used for project management. Although still in the beginning of my
+        Tech journey, I like to inspire and help the underrepresented groups in tech. Let's break the stereotypes together!
+      </p>
     </div>
-  </body>
+    <hr>
+    <div id="skill" class="skills">
+      <h2>My Skills.</h2>
+      <div class="skill-row">
+        <!-- img class="skill-1" src="" alt="" height="120" width="120"-->
+        <h3>Languages/Frameworks</h3>
+        <p>Java, Python, HTML/CSS, JavaScript, SQL</p>
+      </div>
+      <div class="skill-row">
+        <!--img class="skill-2" src="" alt="place-holder"-->
+        <h3>Tools & IDEs</h3>
+        <p> IntelliJ, Atom, git, Microsoft Office(word, excel, and powerpoint), Adobe Photoshop, canva</p>
+      </div>
+    </div>
+    <hr>
+    <div id="hobby" class="Hobbies">
+      <h2>My Hobbies.</h2>
+      <img class="hobby2" src="images/avocado-plant-prints.png" alt="avocado plant image" height="230" width="190">
+
+      <ul>
+        <li>Cooking is one of my hobbies, I love creating new recipes!</li>
+        <li>I enjoy growing plants from seeds. Watching them grow is very rewarding, and teaches
+          me that patience pays off!</li>
+      </ul>
+
+    </div>
+    <hr>
+
+    <div id="contact" class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>Placeholder</h3>
+      <p>Placeholder</p>
+      <a class="btn" href="mailto:a.abadian22@gmail.com">CONTACT ME</a>
+    </div>
+  </div>
+
+
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/in/anahita-abadian">LinkedIn</a>
+    <a class="footer-link" href="https://twitter.com/">Twitter</a>
+    <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+    <p class="sign">© copyright 2020 Anahita Abadian.</p>
+  </div>
+</body>
+
 </html>
